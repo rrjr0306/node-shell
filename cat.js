@@ -1,7 +1,8 @@
 const { readFile } = require('node:fs') 
 
 module.exports = function(fileName) {
-    readFile(fileName, (err, data) => {
+    console.log(fileName);
+    readFile(fileName, 'utf8', (err, data) => {
         if (err) throw err;
         console.log(data)
     })
