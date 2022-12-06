@@ -15,8 +15,8 @@
     "url": "https://github.com/rrjr0306/node-shell/issues"
   },
   "homepage": "https://github.com/rrjr0306/node-shell#readme",
-  "description": "",
   "dependencies": {
     "request": "^2.88.2"
-  }
+  },
+  "description": ""
 }
